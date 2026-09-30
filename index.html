@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urmika Mitra | E-Portfolio - Geoinformatics & GIS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 3D Interactive Canvas Background for GIS / Globe Theme -->
+    <canvas id="geoCanvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fas fa-globe-americas"></i> Urmika Mitra
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Get in Touch</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Homepage / Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge"><i class="fas fa-satellite"></i> Geospatial & Remote Sensing Student</span>
+                <h1>URMIKA MITRA</h1>
+                <p class="subtitle">M.Sc. Geoinformatics Student | GIS & Remote Sensing Enthusiast</p>
+                <p class="location"><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary-btn">Explore Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card-profile floating-3d">
+                    <div class="avatar-container">
+                        <img src="assets/images/URMIKA_PHOTO.jpeg" alt="Urmika Mitra"> 
+                        <div class="pulse-ring"></div>
+                    </div>
+                    <div class="floating-badge badge-1"><i class="fas fa-layer-group"></i> ArcGIS & QGIS</div>
+                    <div class="floating-badge badge-2"><i class="fas fa-code"></i> Python & GEE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-glass-card">
+                <p class="about-desc">
+                    M.Sc. Geoinformatics student with a growing interest in applying geospatial technologies to solve real-world problems. My academic journey has helped me build a strong foundation in GIS, remote sensing, and spatial analysis through coursework, hands-on internship experience, and independent projects. I am eager to learn, open to new challenges, and committed to strengthening my technical skills. I look forward to starting my career in an environment where I can contribute, gain practical experience, and continue growing as a geospatial professional.
+                </p>
+                
+                <div class="info-grid">
+                    <div class="info-box">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="edu-item">
+                            <h4>Master of Science (M.Sc.) Geoinformatics</h4>
+                            <p class="timeline">2025 - 2027</p>
+                            <p>Bharati Vidyapeeth Institute Of Environment Education and Research (BVIEER), Pune</p>
+                        </div>
+                        <div class="edu-item">
+                            <h4>Bachelor of Science (B.Sc.) Geography (Hons.)</h4>
+                            <p class="timeline">2021 - 2024</p>
+                            <p>UNIVERSITY OF CALCUTTA</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h3><i class="fas fa-user-friends"></i> Reference Contacts</h3>
+                        <div class="ref-item">
+                            <h4>Dr. Aravinth Raja</h4>
+                            <p>Assistant Professor (BVIEER)</p>
+                            <a href="mailto:aravinth.raja@bharatividyapeeth.edu"><i class="fas fa-envelope"></i> aravinth.raja@bharatividyapeeth.edu</a>
+                        </div>
+                        <div class="ref-item">
+                            <h4>Dr. Shamita Kumar</h4>
+                            <p>Principal (BVIEER)</p>
+                            <a href="mailto:shamita.kumar@bharatividyapeeth.edu"><i class="fas fa-envelope"></i> shamita.kumar@bharatividyapeeth.edu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas of Expertise Section -->
+    <section id="expertise" class="section bg-glass-alt">
+        <div class="container">
+            <h2 class="section-title">Areas of Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expert-card">
+                    <div class="icon-box"><i class="fas fa-satellite-dish"></i></div>
+                    <h3>GIS Software & Remote Sensing</h3>
+                    <p>ArcGIS, QGIS, Terrset, Google Earth Engine</p>
+                </div>
+                <div class="expert-card">
+                    <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Programming</h3>
+                    <p>Python, JavaScript, Leaflet.js, Cesium.js</p>
+                </div>
+                <div class="expert-card">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3>Academic Strengths</h3>
+                    <p>Geospatial Data Analysis, GIS & Remote Sensing Applications, Cartographic Design & Map Visualization, Web GIS & 3D Dashboard Development, Spatial Database Management</p>
+                </div>
+                <div class="expert-card">
+                    <div class="icon-box"><i class="fas fa-language"></i></div>
+                    <h3>Soft Skills & Languages</h3>
+                    <p><strong>Skills:</strong> Time management, Teamwork, Problem Solving, Effective Communication, Adaptability</p>
+                    <p class="mt-2"><strong>Languages:</strong> English, Hindi, Bengali (Read, Write, Speak)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Major Projects Section (Exact Portfolio Research & Application Projects) -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Geospatial Research & Applications</h2>
+            <p class="section-subtitle">Click on any project card to explore the detailed project pages from your e-portfolio.</p>
+            
+            <div class="projects-grid-3d">
+                <!-- Project 1 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=600&q=80" alt="Brahmaputra River Basin">
+                        <span class="project-tag">Hydrological GIS</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Brahmaputra River Basin Analysis</h3>
+                        <p>Comprehensive geospatial and hydrological assessment of the Brahmaputra River Basin using remote sensing data and advanced spatial modeling.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Darjeeling 3D Terrain Visualization">
+                        <span class="project-tag">3D Terrain</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Darjeeling 3D Terrain Visualization</h3>
+                        <p>High-resolution 3D terrain modeling and spatial visualization of the mountainous topography of Darjeeling for comprehensive geomorphological studies.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?auto=format&fit=crop&w=600&q=80" alt="Assam Flood Inundation Mapping">
+                        <span class="project-tag">Disaster Management</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Assam Flood Inundation Mapping</h3>
+                        <p>Multi-temporal satellite imagery analysis to map flood inundation extents, assess vulnerable zones, and monitor disaster impact across Assam.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80" alt="Pan-India Long-Term Vegetation Analysis">
+                        <span class="project-tag">Remote Sensing</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pan-India Long-Term Vegetation Analysis</h3>
+                        <p>Planetary-scale geospatial analysis utilizing Google Earth Engine to evaluate long-term vegetation dynamics and environmental changes across India.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?auto=format&fit=crop&w=600&q=80" alt="Paschim Bardhaman Mapping">
+                        <span class="project-tag">Cartography</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Paschim Bardhaman Mapping</h3>
+                        <p>Detailed cartographic design, feature extraction, and spatial database creation for administrative and resource management in Paschim Bardhaman.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card-3d" onclick="window.open('https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing', '_blank')">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=600&q=80" alt="Advanced NDVI Vegetation Monitoring">
+                        <span class="project-tag">Vegetation Index</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Advanced NDVI Vegetation Monitoring</h3>
+                        <p>Calculating and analyzing Normalized Difference Vegetation Index (NDVI) time-series data to monitor agricultural health and ecological changes.</p>
+                        <div class="card-footer">
+                            <span class="link-text">View Project <i class="fas fa-external-link-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="section bg-glass-alt">
+        <div class="container">
+            <h2 class="section-title">Internship Experience</h2>
+            <div class="internship-glass-card">
+                <div class="internship-header">
+                    <h3>GIS Intern — Survey of India, Pune</h3>
+                    <span class="badge-date"><i class="far fa-calendar-alt"></i> May 2026 – June 2026</span>
+                </div>
+                <ul class="internship-list">
+                    <li>Carried out vector editing, feature extraction, and topology validation in ArcMap to support the creation and upkeep of accurate geospatial datasets.</li>
+                    <li>Conducted quality checks and error correction on spatial data to ensure positional and attribute accuracy across mapping deliverables.</li>
+                    <li>Collaborated with senior geospatial professionals to maintain the organization's geospatial database and streamline mapping workflows.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="cert-grid">
+                <div class="cert-card"><i class="fas fa-award"></i> GIS MOOC Certification</div>
+                <div class="cert-card"><i class="fas fa-award"></i> NASA Hyperspectral Remote Sensing Certificate</div>
+                <div class="cert-card"><i class="fas fa-award"></i> Remote Sensing Data Analytics for Crop Production Forecasting (ISRO)</div>
+                <div class="cert-card"><i class="fas fa-award"></i> Space Science & Technology Awareness Training</div>
+                <div class="cert-card"><i class="fas fa-award"></i> Kaggle Certificates</div>
+                <div class="cert-card"><i class="fas fa-award"></i> Exploring GIS maps (ESRI)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section id="contact" class="section bg-glass-alt">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-glass-card">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:urmikamitra28@gmail.com">urmikamitra28@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h4>LinkedIn Profile</h4>
+                        <a href="https://www.linkedin.com/in/urmika-mitra-582469373/" target="_blank">View LinkedIn Profile</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4>GitHub Profile</h4>
+                        <a href="https://github.com/urmikamitra28-dev" target="_blank">View GitHub Profile</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <div>
+                        <h4>Google Sites E-Portfolio</h4>
+                        <a href="https://sites.google.com/view/urmika-mitra-e-portfolio?usp=sharing" target="_blank">Visit Original E-Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Urmika Mitra. All Rights Reserved. Designed with a Professional 3D GIS Theme.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+   
